@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Google Form</title>
+  </head>
+  <body>
+    <div>
+        <h1>Student Registration Form</h1>
+        <p>Please fill out this form carefully</p>
+        <form>
+            <label>Full Name*</label>
+            <input type="text" name="fullname" required>
+            <br>
+
+            <label>Enrollment Number*</label>
+            <input type="text" name="enrollment" required>
+            <br>
+
+            <label>Email Address*</label>
+            <input type="email" name="email" required>
+            <br>
+
+            <label>Mobile Number*</label>
+            <input type="tel" name="mobile">
+            <br>
+
+            <label>Date of Birth*</label>
+            <input type="date" name="dob">
+            <br>
+
+            <label>Gender*</label>
+            <div>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <!-- <input type="radio" name="gender" value="Other"> Other -->
+            </div>
+            <br>
+
+            <label>Department*</label>
+            <select name="department" required>
+                <option selected disabled>Select Department</option>
+                <option>CSE</option>
+                <option>CSE-AI & ML</option>
+                <option>CSE-AI & DS</option>
+                <option>CSE-CyberSecurity</option>
+                <option>CSE-Blockchain</option>
+            </select>
+
+            <br>
+            <label>Semester</label>
+            <select name="semester" required>
+                <option selected disabled>Select Semester</option>
+                <option>Semester 1</option>
+                <option>Semester 2</option>
+                <option>Semester 3</option>
+                <option>Semester 4</option>
+                <option>Semester 5</option>
+                <option>Semester 6</option>
+                <option>Semester 7</option>
+                <option>Semester 8</option>
+            </select>
+            <br>
+
+            <label>Skills Known</label>
+            <div>
+                <input type="checkbox" name="skills" value="C"> C
+                <input type="checkbox" name="skills" value="C++"> C++
+                <input type="checkbox" name="skills" value="Python"> Python
+                <input type="checkbox" name="skills" value="Java"> Java
+                <input type="checkbox" name="skills" value="HTML"> HTML
+                <input type="checkbox" name="skills" value="CSS"> CSS
+                <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+            </div>
+
+            <label>Comments</label>
+            <textarea placeholder="Enter Your Comments"></textarea>
+            <br>
+
+            <button type="submit">Sumbit</button>
+        </form>
+    </div>
+  </body>
+</html>
+
+<!-- 
+Full Name 
+Enrollment Number
+Email Address
+Mobile Number
+DOB
+Gender
+Department
+Current Semester
+Skills
+Comments
+http://127.0.0.1:5500/Lecture3.html?fullname=Abhishek+Chauhan&enrollment=W11227378236&email=coderspure%40gmail.com&mobile=%2B91+95986-28521&dob=2026-06-04&gender=Male&department=CSE-AI+%26+DS&semester=Semester+2&skills=Python&skills=Java&skills=HTML
+-->
