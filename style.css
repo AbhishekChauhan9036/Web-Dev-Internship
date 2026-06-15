@@ -1,0 +1,39 @@
+/* Element Selecter */
+/* h1 {
+    color: #35d48a;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+p {
+    background-color: rgb(181, 26, 119);
+} */
+
+.heading{
+    color: red;
+}
+
+
+/*
+ 1. Create 3 headings with h1, h2 & h3
+ give theam all a class "heading" & set color of "heading" to red 
+
+ 2. Create a heading on the page with all of its text upper case by default.
+
+ 3. Create a div inside it create a class select that class
+    hight and width 100 px, background color: yellow,  border radius:40px.
+*/
+
+.bmodel{
+    width: 1000px;
+    height: 150px;
+    border: 10px solid rgb(46, 190, 46);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px;
+}
+
