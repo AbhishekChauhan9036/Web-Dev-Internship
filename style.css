@@ -31,9 +31,21 @@ p {
 .bmodel{
     width: 1000px;
     height: 150px;
-    border: 10px solid rgb(46, 190, 46);
+    border: 10px solid rgba(46, 190, 46, 1);
     border-radius: 20px;
     padding: 20px;
     margin: 40px;
 }
 
+/*
+RGB
+RGBA()
+*/
+
+#heading2{
+    text-align: center;
+    width: 200px;
+    height: inherit;
+    background-image: url("img.jpg");
+    background-size: auto;
+}

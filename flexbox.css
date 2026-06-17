@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+}
+
+#box1{
+    background-color: yellow;
+}
+
+#box2{
+    background-color: aqua;
+    height: 200px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+}
+
+#box3{
+    background-color: cadetblue;
+    /* flex-grow: 1; */
+}
+
+#box4{
+    background-color: blanchedalmond;
+    /* flex-grow: 1; */
+}
+
+#box5{
+    background-color: blue;
+}
+
+
+/* 
+    Create Flexbox PlayGroud with 4 box change the color of each one
+    place to all box with spaced evenly in a single line
+*/
