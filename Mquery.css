@@ -1,0 +1,38 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+}
+
+/* @media(width : 500px){
+    div{
+        background-color: red;
+    }
+} */
+
+/* @media(min-width : 400px){
+    div{
+        background-color: blue;
+    }
+} */
+/* 
+@media(max-width: 300px){
+    div{
+        background-color: aqua;
+    }
+} */
+
+
+@media(min-width : 200px) and (max-width : 300px){
+  div{
+    background-color: yellow;
+    font-size: larger;
+  }
+}
+
+/* create a div conatiner
+set div width : 500px, height: 600px and background color:aqua
+
+width: 200px - :red 
+width: between 300 to 350 - yellow
+width: >=600px - Green */

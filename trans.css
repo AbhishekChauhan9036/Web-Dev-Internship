@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    /* transition: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(4);
+    transition-delay: 3s; */
+    transition: all 2s ease-in-out 1s;
+}
+
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+div:active{
+    background-color: green;
+    width: 200px;
+}
