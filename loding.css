@@ -1,0 +1,17 @@
+#loader{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 15px solid #34908B;
+    border-right: 15px solid #FDF4AF;
+    animation: identifier 1s ease-in 0s infinite normal;
+}
+
+@keyframes identifier {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
